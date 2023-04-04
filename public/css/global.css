@@ -1,0 +1,18 @@
+.map-container {
+    overflow: hidden;
+    /* padding-bottom:56.25%; */
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 250px;
+    width: 100%;
+    position: absolute;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0 !important;
+}
